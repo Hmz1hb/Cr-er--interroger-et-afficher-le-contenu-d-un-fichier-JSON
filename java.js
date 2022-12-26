@@ -8,8 +8,28 @@ request.onreadystatechange = function() {
     // Parse the response
     const data = JSON.parse(request.responseText);
 
-    // Log the data to the console
-    console.log(data);
+    // Get the table element
+    const table = document.getElementById('data-table');
+
+    // Iterate through the data
+    data.forEach(item => {
+      // Create a new table row
+      const row = document.createElement('tr');
+
+      // Create a cell for each property
+      const nameCell = document.createElement('td');
+      nameCell.innerText = item.name;
+      row.appendChild(nameCell);
+
+      const ageCell = document.createElement('td');
+      ageCell.innerText = item.age;
+      row.appendChild(ageCell);
+
+      // Repeat for other properties...
+
+      // Append the row to the table body
+      table.appendChild(row);
+    });
   }
 }
 
