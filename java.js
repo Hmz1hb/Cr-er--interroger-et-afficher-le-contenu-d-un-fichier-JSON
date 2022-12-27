@@ -2,7 +2,7 @@
 const request = new XMLHttpRequest();
 
 // Attach an event listener to the element with the ID "SearchBar"
-document.getElementById("SearchBar").addEventListener("keyup", function () {
+document.getElementById("SearchBar").addEventListener("keyup", function test () {
   // Get the value of the element
   const searchTerm = this.value;
 
@@ -13,7 +13,6 @@ document.getElementById("SearchBar").addEventListener("keyup", function () {
       // Parse the response
       const data = JSON.parse(request.responseText);
     
-
       // Filter the data by the search term
       const filteredData = data.movies.filter(movie => movie.title.toLowerCase().includes(searchTerm));
 
@@ -28,3 +27,4 @@ document.getElementById("SearchBar").addEventListener("keyup", function () {
   // Send the request
   request.send();
 });
+
