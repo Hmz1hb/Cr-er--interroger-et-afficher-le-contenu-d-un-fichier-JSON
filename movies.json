@@ -13,13 +13,13 @@
 			"actors": [
 				{
 					"name": "Tim",
-					"firstname": "Robbins",
-					"nationality": "American"
+					"firstname": " Robbins",
+					"nationality": " American"
 				},
 				{
 					"name": "Morgan",
-					"firstname": "Freeman",
-					"nationality": "American"
+					"firstname": " Freeman",
+					"nationality": " American"
 				}
 			]
 		},
@@ -36,18 +36,18 @@
 			"actors": [
 				{
 					"name": "Leonardo",
-					"firstname": "DiCaprio",
-					"nationality": "American"
+					"firstname": " DiCaprio",
+					"nationality": " American"
 				},
 				{
 					"name": "Joseph",
-					"firstname": "Gordon-Levitt",
-					"nationality": "American"
+					"firstname": " Gordon-Levitt",
+					"nationality": " American"
 				},
 				{
 					"name": "Ellen",
-					"firstname": "Page",
-					"nationality": "Canadian"
+					"firstname": " Page",
+					"nationality": " Canadian"
 				}
 			]
 		},
@@ -64,18 +64,18 @@
 			"actors": [
 				{
 					"name": "Marlon",
-					"firstname": "Brando",
-					"nationality": "American"
+					"firstname": " Brando",
+					"nationality": " American"
 				},
 				{
 					"name": "Al",
-					"firstname": "Pacino",
-					"nationality": "American"
+					"firstname": " Pacino",
+					"nationality": " American"
 				},
 				{
 					"name": "James",
-					"firstname": "Caan",
-					"nationality": "American"
+					"firstname": " Caan",
+					"nationality": " American"
 				}
 			]
 		},
@@ -92,18 +92,18 @@
 			"actors": [
 				{
 					"name": "Christian",
-					"firstname": "Bale",
-					"nationality": "British"
+					"firstname": " Bale",
+					"nationality": " British"
 				},
 				{
 					"name": "Heath",
-					"firstname": "Ledger",
-					"nationality": "Australian"
+					"firstname": " Ledger",
+					"nationality": " Australian"
 				},
 				{
 					"name": "Aaron",
-					"firstname": "Eckhart",
-					"nationality": "American"
+					"firstname": " Eckhart",
+					"nationality": " American"
 				}
 			]
 		},
@@ -120,18 +120,18 @@
 			"actors": [
 				{
 					"name": "John",
-					"firstname": "Travolta",
-					"nationality": "American"
+					"firstname": " Travolta",
+					"nationality": " American"
 				},
 				{
 					"name": "Samuel",
-					"firstname": "L. Jackson",
-					"nationality": "American"
+					"firstname": " L. Jackson",
+					"nationality": " American"
 				},
 				{
 					"name": "Uma",
-					"firstname": "Thurman",
-					"nationality": "American"
+					"firstname": " Thurman",
+					"nationality": " American"
 				}
 			]
 		},{
@@ -147,18 +147,18 @@
 			"actors": [
 				{
 					"name": "Ralph",
-					"firstname": "Fiennes",
-					"nationality": "British"
+					"firstname": " Fiennes",
+					"nationality": " British"
 				},
 				{
 					"name": "Tony",
-					"firstname": "Revolori",
-					"nationality": "Guatemalan"
+					"firstname": " Revolori",
+					"nationality": " Guatemalan"
 				},
 				{
 					"name": "Adrien",
-					"firstname": "Brody",
-					"nationality": "American"
+					"firstname": " Brody",
+					"nationality": " American"
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"director": "George Miller",
 			"duration": "120 minutes",
 			"year": "2015",
-			"poster": "https://m.media-amazon.com/images/M/MV5BOTBIYGFYZDctYjQ4Ny00YzcwLWE0YWYtMjRkNjM5ODg0NGYwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,640,1000_AL_.jpg",
+			"poster": "https://imgs.search.brave.com/XujJpO5ZpYJ_fXJ1OfJ2uVaE179xFk-gueOyd5PrlK4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9idXp6/LnR0L21lZGlhL3Bv/c3RlcnMvODU3L3Bv/c3RlcnNfMl8xNTAw/LmpwZw",
 			"festivals": [
 				"Cannes Film Festival",
 				"Toronto International Film Festival"
@@ -175,18 +175,18 @@
 			"actors": [
 				{
 					"name": "Tom",
-					"firstname": "Hardy",
-					"nationality": "British"
+					"firstname": " Hardy",
+					"nationality": " British"
 				},
 				{
 					"name": "Charlize",
-					"firstname": "Theron",
-					"nationality": "South African"
+					"firstname": " Theron",
+					"nationality": " South African"
 				},
 				{
 					"name": "Nicholas",
-					"firstname": "Hoult",
-					"nationality": "British"
+					"firstname": " Hoult",
+					"nationality": " British"
 				}
 			]
 		},{
@@ -202,18 +202,18 @@
 			"actors": [
 				{
 					"name": "Leonardo",
-					"firstname": "DiCaprio",
-					"nationality": "American"
+					"firstname": " DiCaprio",
+					"nationality": " American"
 				},
 				{
 					"name": "Jonah",
-					"firstname": "Hill",
-					"nationality": "American"
+					"firstname": " Hill",
+					"nationality": " American"
 				},
 				{
 					"name": "Margot",
-					"firstname": "Robbie",
-					"nationality": "Australian"
+					"firstname": " Robbie",
+					"nationality": " Australian"
 				}
 			]
 		},
@@ -230,18 +230,18 @@
 			"actors": [
 				{
 					"name": "Joaquin",
-					"firstname": "Phoenix",
-					"nationality": "American"
+					"firstname": " Phoenix",
+					"nationality": " American"
 				},
 				{
 					"name": "Scarlett",
-					"firstname": "Johansson",
-					"nationality": "American"
+					"firstname": " Johansson",
+					"nationality": " American"
 				},
 				{
 					"name": "Amy",
-					"firstname": "Adams",
-					"nationality": "American"
+					"firstname": " Adams",
+					"nationality": " American"
 				}
 			]
 		},
@@ -258,18 +258,18 @@
 			"actors": [
 				{
 					"name": "Leonardo",
-					"firstname": "DiCaprio",
-					"nationality": "American"
+					"firstname": " DiCaprio",
+					"nationality": " American"
 				},
 				{
 					"name": "Matt",
-					"firstname": "Damon",
-					"nationality": "American"
+					"firstname": " Damon",
+					"nationality": " American"
 				},
 				{
 					"name": "Jack",
-					"firstname": "Nicholson",
-					"nationality": "American"
+					"firstname": " Nicholson",
+					"nationality": " American"
 				}
 			]
 		}		
