@@ -1,3 +1,23 @@
+.form-control{
+  color: beige;
+  
+}
+.form-control:focus{
+  color: beige;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #FFF;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #FFF;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #FFF;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #FFF;
+}
 body{
     background-image: url(https://images.pexels.com/photos/7513412/pexels-photo-7513412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
