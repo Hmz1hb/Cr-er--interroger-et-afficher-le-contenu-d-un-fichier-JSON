@@ -10,12 +10,14 @@ const request = new XMLHttpRequest();
     if (request.readyState === 4 && request.status === 200) {
 
       const data = JSON.parse(request.responseText);
+
+      
             
       // Iterate through the data
       data.movies.forEach(item => {
       // Create a new table row
       const row = table.tBodies[0].insertRow();
-
+        
       // Create cells for each property
       const posterCell = row.insertCell();
       posterCell.innerHTML = `<a href="${item.poster}"><img src="${item.poster}" alt="${item.title}" width="100" height="150"></a>`;
@@ -159,3 +161,24 @@ function sortTable(n) {
     }
   }
 }
+//video loop in the background
+
+var myvid = document.getElementById('myvideo');
+
+myvid.addEventListener('ended', function(e) {
+  // get the active source and the next video source.4
+  
+  // I set it so if there's no next, it loops to the first one
+  var activesource = document.querySelector("#myvideo source.active");
+  var nextsource = document.querySelector("#myvideo source.active + source") || document.querySelector("#myvideo source:first-child");
+  
+  // deactivate current source, and activate next one
+  activesource.className = "";
+  nextsource.className = "active";
+  
+  // update the video source and play
+  myvid.src = nextsource.src;
+  myvid.play();
+});
+
+// 
