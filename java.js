@@ -33,11 +33,11 @@ const request = new XMLHttpRequest();
       yearCell.innerText = item.year;
 
       const festivalCell = row.insertCell();
-      festivalCell.innerText = item.festivals.join(', ');
+      festivalCell.innerHTML = item.festivals.join(', <br>');
       row.appendChild(festivalCell);
 
       const actorCell = row.insertCell();
-      actorCell.innerText = item.actors.map(actors => actors.name + actors.firstname + actors.nationality).join(', ');
+      actorCell.innerHTML = item.actors.map(actors => actors.name + actors.firstname+ actors.nationality).join(', <br>');
       row.appendChild(actorCell);
       })
     }
@@ -92,11 +92,11 @@ document.getElementById("SearchBar").addEventListener("keyup", function() {
       yearCell.innerText = item.year;
 
       const festivalCell = row.insertCell();
-      festivalCell.innerText = item.festivals.join(', ');
+      festivalCell.innerHTML = item.festivals.join(', <br>');
       row.appendChild(festivalCell);
 
       const actorCell = row.insertCell();
-      actorCell.innerText = item.actors.map(actors => actors.name + actors.firstname + actors.nationality).join(', ');
+      actorCell.innerHTML = item.actors.map(actors => actors.name + actors.firstname + actors.nationality).join(', <br>');
       row.appendChild(actorCell);
 });
 }}
