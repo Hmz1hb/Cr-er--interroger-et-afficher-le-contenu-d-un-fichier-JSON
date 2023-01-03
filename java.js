@@ -46,7 +46,7 @@ const request = new XMLHttpRequest();
   };
 
         // Open the request and set the HTTP method and URL
-        request.open('GET', 'movies.json');
+        request.open('GET', './movies.json');
 
         // Send the request
         request.send();
@@ -103,7 +103,7 @@ document.getElementById("SearchBar").addEventListener("keyup", function() {
 });
 }}
       // Open the request and set the HTTP method and URL
-      request.open('GET', 'movies.json');
+      request.open('GET', './movies.json');
 
       // Send the request
       request.send();
